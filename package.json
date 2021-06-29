@@ -1,0 +1,26 @@
+{
+  "name": "enoch-dex-core",
+  "version": "1.0.0",
+  "description": "Core smart contracts of enoch decentralised exchange",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finaxis300/enoch-dex-core.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/finaxis300/enoch-dex-core/issues"
+  },
+  "homepage": "https://github.com/finaxis300/enoch-dex-core#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.5.1"
+  }
+}
