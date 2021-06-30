@@ -43,14 +43,14 @@
     "absolutePath": "/E/sanya/Blockchain lab/DEX/enoch-dex-core/contracts/interfaces/IEnochV2Callee.sol",
     "exportedSymbols": {
       "IEnochV2Callee": [
-        1718
+        1523
       ]
     },
-    "id": 1719,
+    "id": 1524,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1706,
+        "id": 1511,
         "literals": [
           "solidity",
           ">=",
@@ -58,7 +58,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:4"
+        "src": "0:24:3"
       },
       {
         "baseContracts": [],
@@ -66,9 +66,9 @@
         "contractKind": "interface",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 1718,
+        "id": 1523,
         "linearizedBaseContracts": [
-          1718
+          1523
         ],
         "name": "IEnochV2Callee",
         "nodeType": "ContractDefinition",
@@ -76,23 +76,23 @@
           {
             "body": null,
             "documentation": null,
-            "id": 1717,
+            "id": 1522,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "EnochV2Call",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1715,
+              "id": 1520,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1708,
+                  "id": 1513,
                   "name": "sender",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1717,
-                  "src": "81:14:4",
+                  "scope": 1522,
+                  "src": "81:14:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -100,10 +100,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1707,
+                    "id": 1512,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "81:7:4",
+                    "src": "81:7:3",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -115,11 +115,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 1710,
+                  "id": 1515,
                   "name": "amount0",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1717,
-                  "src": "97:12:4",
+                  "scope": 1522,
+                  "src": "97:12:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -127,10 +127,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1709,
+                    "id": 1514,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "97:4:4",
+                    "src": "97:4:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -141,11 +141,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 1712,
+                  "id": 1517,
                   "name": "amount1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1717,
-                  "src": "111:12:4",
+                  "scope": 1522,
+                  "src": "111:12:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -153,10 +153,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1711,
+                    "id": 1516,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "111:4:4",
+                    "src": "111:4:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -167,11 +167,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 1714,
+                  "id": 1519,
                   "name": "data",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1717,
-                  "src": "125:19:4",
+                  "scope": 1522,
+                  "src": "125:19:3",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -179,10 +179,10 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 1713,
+                    "id": 1518,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
-                    "src": "125:5:4",
+                    "src": "125:5:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -192,33 +192,33 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "80:65:4"
+              "src": "80:65:3"
             },
             "returnParameters": {
-              "id": 1716,
+              "id": 1521,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "154:0:4"
+              "src": "154:0:3"
             },
-            "scope": 1718,
-            "src": "60:95:4",
+            "scope": 1523,
+            "src": "60:95:3",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 1719,
-        "src": "28:130:4"
+        "scope": 1524,
+        "src": "28:130:3"
       }
     ],
-    "src": "0:160:4"
+    "src": "0:160:3"
   },
   "legacyAST": {
     "attributes": {
       "absolutePath": "/E/sanya/Blockchain lab/DEX/enoch-dex-core/contracts/interfaces/IEnochV2Callee.sol",
       "exportedSymbols": {
         "IEnochV2Callee": [
-          1718
+          1523
         ]
       }
     },
@@ -232,9 +232,9 @@
             ".0"
           ]
         },
-        "id": 1706,
+        "id": 1511,
         "name": "PragmaDirective",
-        "src": "0:24:4"
+        "src": "0:24:3"
       },
       {
         "attributes": {
@@ -248,10 +248,10 @@
           "documentation": null,
           "fullyImplemented": false,
           "linearizedBaseContracts": [
-            1718
+            1523
           ],
           "name": "IEnochV2Callee",
-          "scope": 1719
+          "scope": 1524
         },
         "children": [
           {
@@ -265,7 +265,7 @@
                 null
               ],
               "name": "EnochV2Call",
-              "scope": 1718,
+              "scope": 1523,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "external"
@@ -277,7 +277,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "sender",
-                      "scope": 1717,
+                      "scope": 1522,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -291,20 +291,20 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 1707,
+                        "id": 1512,
                         "name": "ElementaryTypeName",
-                        "src": "81:7:4"
+                        "src": "81:7:3"
                       }
                     ],
-                    "id": 1708,
+                    "id": 1513,
                     "name": "VariableDeclaration",
-                    "src": "81:14:4"
+                    "src": "81:14:3"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "amount0",
-                      "scope": 1717,
+                      "scope": 1522,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -317,20 +317,20 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 1709,
+                        "id": 1514,
                         "name": "ElementaryTypeName",
-                        "src": "97:4:4"
+                        "src": "97:4:3"
                       }
                     ],
-                    "id": 1710,
+                    "id": 1515,
                     "name": "VariableDeclaration",
-                    "src": "97:12:4"
+                    "src": "97:12:3"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "amount1",
-                      "scope": 1717,
+                      "scope": 1522,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -343,20 +343,20 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 1711,
+                        "id": 1516,
                         "name": "ElementaryTypeName",
-                        "src": "111:4:4"
+                        "src": "111:4:3"
                       }
                     ],
-                    "id": 1712,
+                    "id": 1517,
                     "name": "VariableDeclaration",
-                    "src": "111:12:4"
+                    "src": "111:12:3"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "data",
-                      "scope": 1717,
+                      "scope": 1522,
                       "stateVariable": false,
                       "storageLocation": "calldata",
                       "type": "bytes",
@@ -369,19 +369,19 @@
                           "name": "bytes",
                           "type": "bytes"
                         },
-                        "id": 1713,
+                        "id": 1518,
                         "name": "ElementaryTypeName",
-                        "src": "125:5:4"
+                        "src": "125:5:3"
                       }
                     ],
-                    "id": 1714,
+                    "id": 1519,
                     "name": "VariableDeclaration",
-                    "src": "125:19:4"
+                    "src": "125:19:3"
                   }
                 ],
-                "id": 1715,
+                "id": 1520,
                 "name": "ParameterList",
-                "src": "80:65:4"
+                "src": "80:65:3"
               },
               {
                 "attributes": {
@@ -390,24 +390,24 @@
                   ]
                 },
                 "children": [],
-                "id": 1716,
+                "id": 1521,
                 "name": "ParameterList",
-                "src": "154:0:4"
+                "src": "154:0:3"
               }
             ],
-            "id": 1717,
+            "id": 1522,
             "name": "FunctionDefinition",
-            "src": "60:95:4"
+            "src": "60:95:3"
           }
         ],
-        "id": 1718,
+        "id": 1523,
         "name": "ContractDefinition",
-        "src": "28:130:4"
+        "src": "28:130:3"
       }
     ],
-    "id": 1719,
+    "id": 1524,
     "name": "SourceUnit",
-    "src": "0:160:4"
+    "src": "0:160:3"
   },
   "compiler": {
     "name": "solc",
@@ -415,7 +415,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-06-30T04:39:23.358Z",
+  "updatedAt": "2021-06-30T06:51:58.273Z",
   "devdoc": {
     "methods": {}
   },
