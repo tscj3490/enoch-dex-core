@@ -227,7 +227,7 @@
         "id": 387,
         "nodeType": "ImportDirective",
         "scope": 580,
-        "sourceUnit": 1900,
+        "sourceUnit": 1969,
         "src": "28:42:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -252,10 +252,10 @@
               "id": 389,
               "name": "IEnochV2Factory",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 1899,
+              "referencedDeclaration": 1968,
               "src": "130:15:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IEnochV2Factory_$1899",
+                "typeIdentifier": "t_contract$_IEnochV2Factory_$1968",
                 "typeString": "contract IEnochV2Factory"
               }
             },
@@ -266,7 +266,7 @@
         ],
         "contractDependencies": [
           1620,
-          1899
+          1968
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -274,7 +274,7 @@
         "id": 579,
         "linearizedBaseContracts": [
           579,
-          1899
+          1968
         ],
         "name": "EnochV2Factory",
         "nodeType": "ContractDefinition",
@@ -760,7 +760,7 @@
             "scope": 579,
             "src": "506:96:1",
             "stateMutability": "view",
-            "superFunction": 1879,
+            "superFunction": 1948,
             "visibility": "external"
           },
           {
@@ -852,10 +852,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        2354,
-                        2355
+                        3187,
+                        3188
                       ],
-                      "referencedDeclaration": 2355,
+                      "referencedDeclaration": 3188,
                       "src": "705:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1216,10 +1216,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        2354,
-                        2355
+                        3187,
+                        3188
                       ],
-                      "referencedDeclaration": 2355,
+                      "referencedDeclaration": 3188,
                       "src": "872:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1424,10 +1424,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        2354,
-                        2355
+                        3187,
+                        3188
                       ],
-                      "referencedDeclaration": 2355,
+                      "referencedDeclaration": 3188,
                       "src": "937:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1515,7 +1515,7 @@
                         "name": "type",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2364,
+                        "referencedDeclaration": 3197,
                         "src": "1072:4:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_metatype_pure$_t_address_$returns$__$",
@@ -1636,7 +1636,7 @@
                             "name": "abi",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2338,
+                            "referencedDeclaration": 3171,
                             "src": "1138:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_abi",
@@ -1683,7 +1683,7 @@
                       "name": "keccak256",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2345,
+                      "referencedDeclaration": 3178,
                       "src": "1128:9:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -1821,10 +1821,10 @@
                           "name": "IEnochV2Pair",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2141,
+                          "referencedDeclaration": 2210,
                           "src": "1287:12:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_IEnochV2Pair_$2141_$",
+                            "typeIdentifier": "t_type$_t_contract$_IEnochV2Pair_$2210_$",
                             "typeString": "type(contract IEnochV2Pair)"
                           }
                         },
@@ -1838,7 +1838,7 @@
                         "nodeType": "FunctionCall",
                         "src": "1287:18:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IEnochV2Pair_$2141",
+                          "typeIdentifier": "t_contract$_IEnochV2Pair_$2210",
                           "typeString": "contract IEnochV2Pair"
                         }
                       },
@@ -1849,7 +1849,7 @@
                       "lValueRequested": false,
                       "memberName": "initialize",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2140,
+                      "referencedDeclaration": 2209,
                       "src": "1287:29:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$returns$__$",
@@ -2374,7 +2374,7 @@
             "scope": 579,
             "src": "610:953:1",
             "stateMutability": "nonpayable",
-            "superFunction": 1888,
+            "superFunction": 1957,
             "visibility": "external"
           },
           {
@@ -2406,7 +2406,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2351,
+                            "referencedDeclaration": 3184,
                             "src": "1633:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -2482,10 +2482,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        2354,
-                        2355
+                        3187,
+                        3188
                       ],
-                      "referencedDeclaration": 2355,
+                      "referencedDeclaration": 3188,
                       "src": "1625:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2608,7 +2608,7 @@
             "scope": 579,
             "src": "1571:143:1",
             "stateMutability": "nonpayable",
-            "superFunction": 1893,
+            "superFunction": 1962,
             "visibility": "external"
           },
           {
@@ -2640,7 +2640,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2351,
+                            "referencedDeclaration": 3184,
                             "src": "1796:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -2716,10 +2716,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        2354,
-                        2355
+                        3187,
+                        3188
                       ],
-                      "referencedDeclaration": 2355,
+                      "referencedDeclaration": 3188,
                       "src": "1788:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2842,7 +2842,7 @@
             "scope": 579,
             "src": "1722:167:1",
             "stateMutability": "nonpayable",
-            "superFunction": 1898,
+            "superFunction": 1967,
             "visibility": "external"
           }
         ],
@@ -2877,7 +2877,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 1900,
+          "SourceUnit": 1969,
           "absolutePath": "/E/sanya/Blockchain lab/DEX/enoch-dex-core/contracts/interfaces/IEnochV2Factory.sol",
           "file": "./interfaces/IEnochV2Factory.sol",
           "scope": 580,
@@ -2909,14 +2909,14 @@
         "attributes": {
           "contractDependencies": [
             1620,
-            1899
+            1968
           ],
           "contractKind": "contract",
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
             579,
-            1899
+            1968
           ],
           "name": "EnochV2Factory",
           "scope": 580
@@ -2931,7 +2931,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "IEnochV2Factory",
-                  "referencedDeclaration": 1899,
+                  "referencedDeclaration": 1968,
                   "type": "contract IEnochV2Factory"
                 },
                 "id": 389,
@@ -3366,7 +3366,7 @@
               "name": "allPairsLength",
               "scope": 579,
               "stateMutability": "view",
-              "superFunction": 1879,
+              "superFunction": 1948,
               "visibility": "external"
             },
             "children": [
@@ -3479,7 +3479,7 @@
               "name": "createPair",
               "scope": 579,
               "stateMutability": "nonpayable",
-              "superFunction": 1888,
+              "superFunction": 1957,
               "visibility": "external"
             },
             "children": [
@@ -3610,10 +3610,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                2354,
-                                2355
+                                3187,
+                                3188
                               ],
-                              "referencedDeclaration": 2355,
+                              "referencedDeclaration": 3188,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -3944,10 +3944,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                2354,
-                                2355
+                                3187,
+                                3188
                               ],
-                              "referencedDeclaration": 2355,
+                              "referencedDeclaration": 3188,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -4102,10 +4102,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                2354,
-                                2355
+                                3187,
+                                3188
                               ],
-                              "referencedDeclaration": 2355,
+                              "referencedDeclaration": 3188,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -4359,7 +4359,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 2364,
+                                  "referencedDeclaration": 3197,
                                   "type": "function (address) pure",
                                   "value": "type"
                                 },
@@ -4455,7 +4455,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 2345,
+                              "referencedDeclaration": 3178,
                               "type": "function (bytes memory) pure returns (bytes32)",
                               "value": "keccak256"
                             },
@@ -4505,7 +4505,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 2338,
+                                      "referencedDeclaration": 3171,
                                       "type": "abi",
                                       "value": "abi"
                                     },
@@ -4642,7 +4642,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "initialize",
-                              "referencedDeclaration": 2140,
+                              "referencedDeclaration": 2209,
                               "type": "function (address,address) external"
                             },
                             "children": [
@@ -4672,7 +4672,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 2141,
+                                      "referencedDeclaration": 2210,
                                       "type": "type(contract IEnochV2Pair)",
                                       "value": "IEnochV2Pair"
                                     },
@@ -5190,7 +5190,7 @@
               "name": "setFeeTo",
               "scope": 579,
               "stateMutability": "nonpayable",
-              "superFunction": 1893,
+              "superFunction": 1962,
               "visibility": "external"
             },
             "children": [
@@ -5271,10 +5271,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                2354,
-                                2355
+                                3187,
+                                3188
                               ],
-                              "referencedDeclaration": 2355,
+                              "referencedDeclaration": 3188,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -5315,7 +5315,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 2351,
+                                      "referencedDeclaration": 3184,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -5447,7 +5447,7 @@
               "name": "setFeeToSetter",
               "scope": 579,
               "stateMutability": "nonpayable",
-              "superFunction": 1898,
+              "superFunction": 1967,
               "visibility": "external"
             },
             "children": [
@@ -5528,10 +5528,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                2354,
-                                2355
+                                3187,
+                                3188
                               ],
-                              "referencedDeclaration": 2355,
+                              "referencedDeclaration": 3188,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -5572,7 +5572,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 2351,
+                                      "referencedDeclaration": 3184,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -5742,12 +5742,12 @@
         }
       },
       "links": {},
-      "address": "0x279A19bC5331ACc265A624950fd6992B6A60b4fd",
-      "transactionHash": "0x92d81664c7aaec7f57c769413cecea8fdbb979d28086e7402ef68a74ded57ab0"
+      "address": "0xB1BAB8754079ed93F4DD9E73aaaCC64fB921bCF2",
+      "transactionHash": "0x0854b1e2b0c81ed9ad48ca2859942e7f7751151dca4aaabcee9858a375f0f940"
     }
   },
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-06-30T06:52:08.251Z",
+  "updatedAt": "2021-07-03T18:07:48.967Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
