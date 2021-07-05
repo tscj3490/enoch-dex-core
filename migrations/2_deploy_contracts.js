@@ -2,6 +2,8 @@ const Factory = artifacts.require("EnochV2Factory.sol");
 const Token1 = artifacts.require("Token1.sol");
 const Token2 = artifacts.require("Token2.sol");
 
+const BN = require("bn.js");
+
 module.exports = async function (deployer, network, addresses) {
   await deployer.deploy(Factory, addresses[0]); //send transaction
   const factory = await Factory.deployed(); //gets mined
@@ -19,7 +21,9 @@ module.exports = async function (deployer, network, addresses) {
       const token2 = await Token2.deployed();
       token1Address = token1.address;
       token2Address = token2.address;
-
+      // TOKEN_A_AMOUNT = pow(10, 18);
+      // a.pow(b) = 10.pow(18)
+      // amount = 100 * (10**18);
       await token1.transfer("0xb9B62EaE8BaDe74880C5B2C622a3ccAeF28769D6",100);
 
 
