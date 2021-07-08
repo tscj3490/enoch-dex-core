@@ -21,13 +21,36 @@ module.exports = async function (deployer, network, addresses) {
       const token2 = await Token2.deployed();
       token1Address = token1.address;
       token2Address = token2.address;
-      // TOKEN_A_AMOUNT = pow(10, 18);
-      // a.pow(b) = 10.pow(18)
-      // amount = 100 * (10**18);
+      
       await token1.transfer("0xb9B62EaE8BaDe74880C5B2C622a3ccAeF28769D6",100);
+      // approve Router address
+      await token1.approve("0xEb83b4a419F2e9e70321897A438f67C0275ba349",10)
+      await token2.approve("0xEb83b4a419F2e9e70321897A438f67C0275ba349",10)
 
 
       await factory.createPair(token1Address, token2Address);
 
+      
+
   }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// TOKEN_A_AMOUNT = pow(10, 18);
+      // a.pow(b) = 10.pow(18)
+      // amount = 100 * (10**18);
