@@ -3,6 +3,7 @@ pragma solidity =0.5.16;
 import './interfaces/IEnochV2Factory.sol';
 import './EnochV2Pair.sol';
 
+
 contract EnochV2Factory is IEnochV2Factory {
     address public feeTo;
     address public feeToSetter;
@@ -19,7 +20,12 @@ contract EnochV2Factory is IEnochV2Factory {
     function allPairsLength() external view returns (uint) {
         return allPairs.length;
     }
-
+   
+        //    Init hash 
+    function getCreationCode() public view returns(bytes32) {
+        return keccak256(type(EnochV2Pair).creationCode);
+    }
+   
     function createPair(address tokenA, address tokenB) external returns (address pair) {
         require(tokenA != tokenB, 'EnochV2: IDENTICAL_ADDRESSES');
         (address token0, address token1) = tokenA < tokenB ? (tokenA, tokenB) : (tokenB, tokenA);
@@ -46,4 +52,6 @@ contract EnochV2Factory is IEnochV2Factory {
         require(msg.sender == feeToSetter, 'EnochV2: FORBIDDEN');
         feeToSetter = _feeToSetter;
     }
+
+
 }
