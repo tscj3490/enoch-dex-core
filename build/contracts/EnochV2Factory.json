@@ -242,7 +242,7 @@
         "id": 387,
         "nodeType": "ImportDirective",
         "scope": 593,
-        "sourceUnit": 2007,
+        "sourceUnit": 2004,
         "src": "28:42:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -267,10 +267,10 @@
               "id": 389,
               "name": "IEnochV2Factory",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2006,
+              "referencedDeclaration": 2003,
               "src": "132:15:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IEnochV2Factory_$2006",
+                "typeIdentifier": "t_contract$_IEnochV2Factory_$2003",
                 "typeString": "contract IEnochV2Factory"
               }
             },
@@ -281,7 +281,7 @@
         ],
         "contractDependencies": [
           1633,
-          2006
+          2003
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -289,7 +289,7 @@
         "id": 592,
         "linearizedBaseContracts": [
           592,
-          2006
+          2003
         ],
         "name": "EnochV2Factory",
         "nodeType": "ContractDefinition",
@@ -775,7 +775,7 @@
             "scope": 592,
             "src": "508:96:1",
             "stateMutability": "view",
-            "superFunction": 1986,
+            "superFunction": 1983,
             "visibility": "external"
           },
           {
@@ -818,7 +818,7 @@
                             "name": "type",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 5375,
+                            "referencedDeclaration": 5372,
                             "src": "725:4:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_metatype_pure$_t_address_$returns$__$",
@@ -865,7 +865,7 @@
                       "name": "keccak256",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 5356,
+                      "referencedDeclaration": 5353,
                       "src": "715:9:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -1034,10 +1034,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        5365,
-                        5366
+                        5362,
+                        5363
                       ],
-                      "referencedDeclaration": 5366,
+                      "referencedDeclaration": 5363,
                       "src": "870:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1398,10 +1398,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        5365,
-                        5366
+                        5362,
+                        5363
                       ],
-                      "referencedDeclaration": 5366,
+                      "referencedDeclaration": 5363,
                       "src": "1037:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1606,10 +1606,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        5365,
-                        5366
+                        5362,
+                        5363
                       ],
-                      "referencedDeclaration": 5366,
+                      "referencedDeclaration": 5363,
                       "src": "1102:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1697,7 +1697,7 @@
                         "name": "type",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 5375,
+                        "referencedDeclaration": 5372,
                         "src": "1237:4:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_metatype_pure$_t_address_$returns$__$",
@@ -1818,7 +1818,7 @@
                             "name": "abi",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 5349,
+                            "referencedDeclaration": 5346,
                             "src": "1303:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_abi",
@@ -1865,7 +1865,7 @@
                       "name": "keccak256",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 5356,
+                      "referencedDeclaration": 5353,
                       "src": "1293:9:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
@@ -1892,15 +1892,6 @@
                 {
                   "externalReferences": [
                     {
-                      "salt": {
-                        "declaration": 506,
-                        "isOffset": false,
-                        "isSlot": false,
-                        "src": "1426:4:1",
-                        "valueSize": 1
-                      }
-                    },
-                    {
                       "pair": {
                         "declaration": 452,
                         "isOffset": false,
@@ -1924,6 +1915,15 @@
                         "isOffset": false,
                         "isSlot": false,
                         "src": "1394:8:1",
+                        "valueSize": 1
+                      }
+                    },
+                    {
+                      "salt": {
+                        "declaration": 506,
+                        "isOffset": false,
+                        "isSlot": false,
+                        "src": "1426:4:1",
                         "valueSize": 1
                       }
                     }
@@ -2003,10 +2003,10 @@
                           "name": "IEnochV2Pair",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2248,
+                          "referencedDeclaration": 2245,
                           "src": "1452:12:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_IEnochV2Pair_$2248_$",
+                            "typeIdentifier": "t_type$_t_contract$_IEnochV2Pair_$2245_$",
                             "typeString": "type(contract IEnochV2Pair)"
                           }
                         },
@@ -2020,7 +2020,7 @@
                         "nodeType": "FunctionCall",
                         "src": "1452:18:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IEnochV2Pair_$2248",
+                          "typeIdentifier": "t_contract$_IEnochV2Pair_$2245",
                           "typeString": "contract IEnochV2Pair"
                         }
                       },
@@ -2031,7 +2031,7 @@
                       "lValueRequested": false,
                       "memberName": "initialize",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2247,
+                      "referencedDeclaration": 2244,
                       "src": "1452:29:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$returns$__$",
@@ -2556,7 +2556,7 @@
             "scope": 592,
             "src": "775:953:1",
             "stateMutability": "nonpayable",
-            "superFunction": 1995,
+            "superFunction": 1992,
             "visibility": "external"
           },
           {
@@ -2588,7 +2588,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 5362,
+                            "referencedDeclaration": 5359,
                             "src": "1798:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -2664,10 +2664,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        5365,
-                        5366
+                        5362,
+                        5363
                       ],
-                      "referencedDeclaration": 5366,
+                      "referencedDeclaration": 5363,
                       "src": "1790:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2790,7 +2790,7 @@
             "scope": 592,
             "src": "1736:143:1",
             "stateMutability": "nonpayable",
-            "superFunction": 2000,
+            "superFunction": 1997,
             "visibility": "external"
           },
           {
@@ -2822,7 +2822,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 5362,
+                            "referencedDeclaration": 5359,
                             "src": "1961:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -2898,10 +2898,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        5365,
-                        5366
+                        5362,
+                        5363
                       ],
-                      "referencedDeclaration": 5366,
+                      "referencedDeclaration": 5363,
                       "src": "1953:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -3024,7 +3024,7 @@
             "scope": 592,
             "src": "1887:167:1",
             "stateMutability": "nonpayable",
-            "superFunction": 2005,
+            "superFunction": 2002,
             "visibility": "external"
           }
         ],
@@ -3059,7 +3059,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 2007,
+          "SourceUnit": 2004,
           "absolutePath": "/E/sanya/Blockchain lab/DEX/enoch-dex-core/contracts/interfaces/IEnochV2Factory.sol",
           "file": "./interfaces/IEnochV2Factory.sol",
           "scope": 593,
@@ -3091,14 +3091,14 @@
         "attributes": {
           "contractDependencies": [
             1633,
-            2006
+            2003
           ],
           "contractKind": "contract",
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
             592,
-            2006
+            2003
           ],
           "name": "EnochV2Factory",
           "scope": 593
@@ -3113,7 +3113,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "IEnochV2Factory",
-                  "referencedDeclaration": 2006,
+                  "referencedDeclaration": 2003,
                   "type": "contract IEnochV2Factory"
                 },
                 "id": 389,
@@ -3548,7 +3548,7 @@
               "name": "allPairsLength",
               "scope": 592,
               "stateMutability": "view",
-              "superFunction": 1986,
+              "superFunction": 1983,
               "visibility": "external"
             },
             "children": [
@@ -3742,7 +3742,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5356,
+                              "referencedDeclaration": 5353,
                               "type": "function (bytes memory) pure returns (bytes32)",
                               "value": "keccak256"
                             },
@@ -3788,7 +3788,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 5375,
+                                      "referencedDeclaration": 5372,
                                       "type": "function (address) pure",
                                       "value": "type"
                                     },
@@ -3852,7 +3852,7 @@
               "name": "createPair",
               "scope": 592,
               "stateMutability": "nonpayable",
-              "superFunction": 1995,
+              "superFunction": 1992,
               "visibility": "external"
             },
             "children": [
@@ -3983,10 +3983,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                5365,
-                                5366
+                                5362,
+                                5363
                               ],
-                              "referencedDeclaration": 5366,
+                              "referencedDeclaration": 5363,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -4317,10 +4317,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                5365,
-                                5366
+                                5362,
+                                5363
                               ],
-                              "referencedDeclaration": 5366,
+                              "referencedDeclaration": 5363,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -4475,10 +4475,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                5365,
-                                5366
+                                5362,
+                                5363
                               ],
-                              "referencedDeclaration": 5366,
+                              "referencedDeclaration": 5363,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -4732,7 +4732,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 5375,
+                                  "referencedDeclaration": 5372,
                                   "type": "function (address) pure",
                                   "value": "type"
                                 },
@@ -4828,7 +4828,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 5356,
+                              "referencedDeclaration": 5353,
                               "type": "function (bytes memory) pure returns (bytes32)",
                               "value": "keccak256"
                             },
@@ -4878,7 +4878,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 5349,
+                                      "referencedDeclaration": 5346,
                                       "type": "abi",
                                       "value": "abi"
                                     },
@@ -4938,15 +4938,6 @@
                     "attributes": {
                       "externalReferences": [
                         {
-                          "salt": {
-                            "declaration": 506,
-                            "isOffset": false,
-                            "isSlot": false,
-                            "src": "1426:4:1",
-                            "valueSize": 1
-                          }
-                        },
-                        {
                           "pair": {
                             "declaration": 452,
                             "isOffset": false,
@@ -4970,6 +4961,15 @@
                             "isOffset": false,
                             "isSlot": false,
                             "src": "1394:8:1",
+                            "valueSize": 1
+                          }
+                        },
+                        {
+                          "salt": {
+                            "declaration": 506,
+                            "isOffset": false,
+                            "isSlot": false,
+                            "src": "1426:4:1",
                             "valueSize": 1
                           }
                         }
@@ -5015,7 +5015,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "initialize",
-                              "referencedDeclaration": 2247,
+                              "referencedDeclaration": 2244,
                               "type": "function (address,address) external"
                             },
                             "children": [
@@ -5045,7 +5045,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 2248,
+                                      "referencedDeclaration": 2245,
                                       "type": "type(contract IEnochV2Pair)",
                                       "value": "IEnochV2Pair"
                                     },
@@ -5563,7 +5563,7 @@
               "name": "setFeeTo",
               "scope": 592,
               "stateMutability": "nonpayable",
-              "superFunction": 2000,
+              "superFunction": 1997,
               "visibility": "external"
             },
             "children": [
@@ -5644,10 +5644,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                5365,
-                                5366
+                                5362,
+                                5363
                               ],
-                              "referencedDeclaration": 5366,
+                              "referencedDeclaration": 5363,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -5688,7 +5688,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 5362,
+                                      "referencedDeclaration": 5359,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -5820,7 +5820,7 @@
               "name": "setFeeToSetter",
               "scope": 592,
               "stateMutability": "nonpayable",
-              "superFunction": 2005,
+              "superFunction": 2002,
               "visibility": "external"
             },
             "children": [
@@ -5901,10 +5901,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                5365,
-                                5366
+                                5362,
+                                5363
                               ],
-                              "referencedDeclaration": 5366,
+                              "referencedDeclaration": 5363,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -5945,7 +5945,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 5362,
+                                      "referencedDeclaration": 5359,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -6080,7 +6080,7 @@
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
   "networks": {
-    "5777": {
+    "1626336426492": {
       "events": {
         "0x0d3648bd0f6ba80134a33ba9275ac585d9d315f0ad8355cddefde31afa28d0e9": {
           "anonymous": false,
@@ -6115,12 +6115,50 @@
         }
       },
       "links": {},
-      "address": "0xf1fc38C645454bdA0bF0E6a4d646Afeff86BE0Ee",
-      "transactionHash": "0xa99f660c192fc1696061c4c14bc138c963b0dbb63ab695804b909088c7e3f6ee"
+      "address": "0x2D8BE6BF0baA74e0A907016679CaE9190e80dD0A",
+      "transactionHash": "0xb6e42cfe9386003b0d26a368903d7e6ea2506155098c44560ab26a98c7c74ae3"
+    },
+    "1626498879147": {
+      "events": {
+        "0x0d3648bd0f6ba80134a33ba9275ac585d9d315f0ad8355cddefde31afa28d0e9": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "token0",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "token1",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "pair",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "name": "PairCreated",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xCfEB869F69431e42cdB54A4F4f105C19C080A601",
+      "transactionHash": "0x1e9f147bcbcf3f9ed52e9d1c8970eb9a32ec9c3ecbbd4d7a071482566a108203"
     }
   },
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-07-12T08:06:13.646Z",
+  "updatedAt": "2021-07-17T05:21:23.504Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
