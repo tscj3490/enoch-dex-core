@@ -1,8 +1,7 @@
 const Factory = artifacts.require("EnochV2Factory.sol");
 const Token1 = artifacts.require("Token1.sol");
 const Token2 = artifacts.require("Token2.sol");
-const EnochPair = artifacts.require("EnochV2Pair")
-
+const EnochV2Pair = artifacts.require("EnochV2ERC20.sol");
 const BN = require("bn.js");
 
 module.exports = async function (deployer, network, addresses) {
@@ -10,8 +9,8 @@ module.exports = async function (deployer, network, addresses) {
   await deployer.deploy(Factory, addresses[0]); //send transaction
   const factory = await Factory.deployed(); //gets mined
 
-  await deployer.deploy(EnochPair);
-  const Enochpair = await EnochPair.deployed()
+  await deployer.deploy(EnochV2Pair);
+  const EnochV2pair = await EnochV2Pair.deployed();
 
   let token1Address, token2Address;
   if(network === 'mainnet'){
@@ -27,18 +26,17 @@ module.exports = async function (deployer, network, addresses) {
       token1Address = token1.address;
       token2Address = token2.address;
 
+
       console.log("Token 1 address", token1Address)
       console.log("Token 2 address", token2Address)
       console.log("Factory address", factory.address)
     
-      let T1pairAdddress = await factory.createPair(token1Address, token2Address);
-      console.log("",T1pairAdddress);
-
+     await factory.createPair(token1Address, token2Address);
       console.log("Pair address: ", await factory.getPair(token1Address, token2Address));
-      // address pair = IUniswapV2Factory(FACTORY).getPair(_tokenA, _tokenB);
       console.log("Creation Code", await factory.getCreationCode())
+      // console.log("Enoch V2 Pair Contract address for ERC20 Functionailities:", EnochV2pair.address);
 
-      console.log("Enoch V2 Pair address", Enochpair.address);
+     
       
 
   }
