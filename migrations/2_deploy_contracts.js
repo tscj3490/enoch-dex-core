@@ -28,16 +28,22 @@ module.exports = async function (deployer, network, addresses) {
       const Weth = await WETH.deployed();
       token1Address = token1.address;
       token2Address = token2.address;
+      WethAddress = Weth.address;
 
 
       console.log("Token 1 address", token1Address)
       console.log("Token 2 address", token2Address)
       console.log("Factory address", factory.address)
       console.log("WETH address:", Weth.address);
-    //  await factory.createPair(token1Address, token2Address);
-    //   console.log("Pair address: ", await factory.getPair(token1Address, token2Address));
-    //   console.log("Creation Code", await factory.getCreationCode())
-      // console.log("Enoch V2 Pair Contract address for ERC20 Functionailities:", EnochV2pair.address);
+     await factory.createPair(token1Address, token2Address);
+      console.log("Pair address: ", await factory.getPair(token1Address, token2Address));
+      console.log("Creation Code", await factory.getCreationCode())
+      console.log("Enoch V2 Pair Contract address for ERC20 Functionailities:", EnochV2pair.address);
+
+      await factory.createPair(WethAddress, token2Address);
+      console.log("WETH Pair address: ", await factory.getPair(WethAddress, token2Address));
+      console.log("Creation Code for WETH Pair", await factory.getCreationCode())
+      console.log("Enoch V2 Pair Contract address for ERC20 Functionailities:", EnochV2pair.address);
 
      
       
