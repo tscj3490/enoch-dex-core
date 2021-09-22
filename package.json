@@ -1,26 +1,14 @@
 {
-  "name": "enoch-dex-core",
-  "version": "1.0.0",
-  "description": "Core smart contracts of enoch decentralised exchange",
-  "main": "truffle-config.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/finaxis300/enoch-dex-core.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/finaxis300/enoch-dex-core/issues"
-  },
-  "homepage": "https://github.com/finaxis300/enoch-dex-core#readme",
   "dependencies": {
-    "@openzeppelin/contracts": "^2.5.1"
+    "@openzeppelin/contracts": "^4.3.1",
+    "hardhat": "^2.6.4",
+    "hardhat-abi-exporter": "^2.3.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.6"
   }
 }
