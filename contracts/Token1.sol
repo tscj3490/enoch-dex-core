@@ -9,10 +9,3 @@ contract Token1 is ERC20Detailed, ERC20 {
         _mint(msg.sender, 1000000000000 * (10 ** 18));
     }
 }
-
-
-
-
-
-
-// msg.sender, 10000 * (10 ** uint256(decimals()))

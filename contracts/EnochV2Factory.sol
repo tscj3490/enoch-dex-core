@@ -17,16 +17,16 @@ contract EnochV2Factory is IEnochV2Factory {
         feeToSetter = _feeToSetter;
     }
 
-    function allPairsLength() external view returns (uint) {
-        return allPairs.length;
-    }
-   
-        //    Init hash 
     function getCreationCode() public view returns(bytes32) {
         return keccak256(type(EnochV2Pair).creationCode);
     }
    
+    function allPairsLength() external view returns (uint) {
+        return allPairs.length;
+    }
+   
     function createPair(address tokenA, address tokenB) external returns (address pair) {
+        
         require(tokenA != tokenB, 'EnochV2: IDENTICAL_ADDRESSES');
         (address token0, address token1) = tokenA < tokenB ? (tokenA, tokenB) : (tokenB, tokenA);
         require(token0 != address(0), 'EnochV2: ZERO_ADDRESS');
@@ -40,6 +40,7 @@ contract EnochV2Factory is IEnochV2Factory {
         getPair[token0][token1] = pair;
         getPair[token1][token0] = pair; // populate mapping in the reverse direction
         allPairs.push(pair);
+
         emit PairCreated(token0, token1, pair, allPairs.length);
     }
 
