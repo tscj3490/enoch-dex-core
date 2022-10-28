@@ -1,8 +1,8 @@
 const { ethers } = require("hardhat");
 
 async function main() {
-  const [deployer] = await ethers.getSigners();
 
+  const [deployer] = await ethers.getSigners();
   const Factory = await ethers.getContractFactory("EnochV2Factory");
   const Token1 = await ethers.getContractFactory("Token1");
   const Token2 = await ethers.getContractFactory("Token2");

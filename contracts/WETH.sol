@@ -35,24 +35,26 @@ contract WETH {
     function() external payable {
         deposit();
     }
-    function deposit() public payable {
-        balanceOf[msg.sender] += msg.value;
-        emit Deposit(msg.sender, msg.value);
-    }
-    function withdraw(uint wad) public {
-        require(balanceOf[msg.sender] >= wad);
-        balanceOf[msg.sender] -= wad;
-        msg.sender.transfer(wad);
-       emit Withdrawal(msg.sender, wad);
-    }
 
     function totalSupply() public view returns (uint) {
         return address(this).balance;
     }
 
+    function deposit() public payable {
+        balanceOf[msg.sender] += msg.value;
+        emit Deposit(msg.sender, msg.value);
+    }
+
+    function withdraw(uint wad) public {
+        require(balanceOf[msg.sender] >= wad);
+        balanceOf[msg.sender] -= wad;
+        msg.sender.transfer(wad);
+        emit Withdrawal(msg.sender, wad);
+    }
+    
     function approve(address guy, uint wad) public returns (bool) {
         allowance[msg.sender][guy] = wad;
-       emit Approval(msg.sender, guy, wad);
+        emit Approval(msg.sender, guy, wad);
         return true;
     }
 
@@ -71,8 +73,8 @@ contract WETH {
             allowance[src][msg.sender] -= wad;
         }
 
-        balanceOf[src] -= wad;
         balanceOf[dst] += wad;
+        balanceOf[src] -= wad;
 
         emit Transfer(src, dst, wad);
 
